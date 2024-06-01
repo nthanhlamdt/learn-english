@@ -1,0 +1,21 @@
+#question {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid rgb(25, 118, 210);
+}
+
+.question-form {
+  width: 300px;
+}
+
+@media screen and (min-width:400px) {
+  #question {
+    font-size: 30px;
+    border: 1px solid rgb(25, 118, 210);
+    padding: 40px;
+  }
+  
+  .question-form {
+    width: 500px;
+  }
+}

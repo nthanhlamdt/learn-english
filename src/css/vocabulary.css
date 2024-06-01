@@ -1,0 +1,20 @@
+#vocabulary {
+  max-width: 400px;
+}
+
+#table-container {
+  max-width: 450px;
+  max-height: 300px;
+  overflow: 'auto'
+}
+
+@media screen and (min-width:400px) {
+  #table-container {
+    min-width: 650px;
+    overflow: 'auto';
+    max-height: 300px;
+  }
+  #vocabulary {
+    width: auto;
+  }
+}
